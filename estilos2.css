@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./img/background-g01e6ff080_1920.jpg);
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+h1 {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+nav ul {
+    
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+nav li {
+    display: inline-flex;   
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: aquamarine;
+}
+
+.texto-free h2{
+    font-family: monospace;
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+
+    padding-top: 2%;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+}
+.texto-free p{
+    font-family: monospace;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+
+    padding-top: 2%;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.texto-free {
+    padding-top: 2%;
+    width: 400px;
+    position: relative;
+    left: 10%;
+    top: 70px;
+    
+    background-color: white;
+    border-radius: 10px;
+    border-left:6px solid aqua;
+    border-right:6px solid aqua;
+    cursor: pointer;
+}
+
+.texto-boost h2{
+    font-family: monospace;
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+
+    padding-top: 2%;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+}
+.texto-boost p{
+    font-family: monospace;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+
+    padding-top: 2%;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.texto-boost {
+    padding-top: 2%;
+    width: 400px;
+    position: relative;
+    left: 40%;
+    top: -567px;
+    
+    background-color: white;
+    border-radius: 10px;
+    border-left:6px solid aqua;
+    border-right:6px solid aqua;
+    cursor: pointer;
+}
+.texto-premium h2{
+    font-family: monospace;
+    font-size: 50px;
+    color: aqua;
+    text-align: center;
+
+    padding-top: 2%;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+}
+.texto-premium p{
+    font-family: monospace;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+
+    padding-top: 2%;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.texto-premium {
+    padding-top: 2%;
+    width: 400px;
+    position: relative;
+    left: 70%;
+    top: -1205px;
+    background-color: white;
+    border-radius: 10px;
+    border-left:6px solid aqua;
+    border-right:6px solid aqua;
+    cursor: pointer;
+}
+
+.texto-free a {
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    font-size:50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    size: 100px;
+    position: relative;
+    left: 95px;
+    top: -20px;
+    cursor: pointer;
+}
+.texto-boost a {
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    font-size:50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    size: 100px;
+    position: relative;
+    left: 95px;
+    top: -20px;
+    cursor: pointer;
+}
+
+.texto-premium a {
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    font-size:50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    size: 100px;
+    position: relative;
+    left: 95px;
+    top: -20px;
+    cursor: pointer;
+}
